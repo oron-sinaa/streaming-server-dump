@@ -1,4 +1,4 @@
-# rtsp-server-dump
+# streaming-server-dump
 
 Here I put all the things I learnt or built about RTSP servers.
 
