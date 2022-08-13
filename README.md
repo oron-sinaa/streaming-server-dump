@@ -11,6 +11,10 @@ Here I put all the things I learnt or built about streaming servers.
 
 > http://live555.com/mediaServer/
 
+> https://github.com/donkeyofking/rtspplayer
+
+> https://github.com/aler9/rtsp-simple-server
+
 > https://www.roborealm.com/help/RTSP_Player.php
 
 > https://www.wowza.com/blog/streaming-protocols
