@@ -27,6 +27,8 @@ Here I put all the things I learnt or built about streaming servers.
 
 > [RaspPI RTSP](https://www.youtube.com/watch?v=y-ipR_4oFFY)
 
+> [Mistserver + Livepeer (video)](https://youtu.be/Y1CJOISDTCk)
+
 > [Ant Media Server](https://www.youtube.com/watch?v=rNhkJSe8wwE)
 
 > http://live555.com/
