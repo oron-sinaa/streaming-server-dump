@@ -9,15 +9,15 @@ Here I put all the things I learnt or built about streaming servers.
 > 
 > It should be able to do following things:
 > 
-> Pull RTSP
+> 1. Pull RTSP
 > 
-> GET RTSP pushed
+> 2. GET RTSP pushed
 > 
-> Generate RTSP and HLS streams
+> 3. Generate RTSP and HLS streams
 > 
-> Store DVR
+> 4. Store DVR
 > 
-> Return live thumbnail
+> 5. Return live thumbnail
 
 
 ## Resources
