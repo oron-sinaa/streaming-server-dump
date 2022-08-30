@@ -25,11 +25,15 @@ Here I put all the things I learnt or built about streaming servers.
 
 > [MistServer](https://mistserver.org/)
 
-> [RaspPI RTSP](https://www.youtube.com/watch?v=y-ipR_4oFFY)
-
 > [Mistserver + Livepeer (video)](https://youtu.be/Y1CJOISDTCk)
 
+> [NGINX Multi-streaming (video)](https://youtu.be/ZGkh2xVH4BQ)
+
+> [Open Source Streaming Projects](https://awesomeopensource.com/projects/video-streaming)
+
 > [Ant Media Server](https://www.youtube.com/watch?v=rNhkJSe8wwE)
+
+> [RaspPI RTSP](https://www.youtube.com/watch?v=y-ipR_4oFFY)
 
 > http://live555.com/
 
@@ -40,8 +44,6 @@ Here I put all the things I learnt or built about streaming servers.
 > http://live555.com/mediaServer/
 
 > https://www.rfc-editor.org/rfc/rfc2326.html
-
-> [Open Source Streaming Projects](https://awesomeopensource.com/projects/video-streaming)
 
 > https://github.com/donkeyofking/rtspplayer
 
