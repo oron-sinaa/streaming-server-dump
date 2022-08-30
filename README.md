@@ -4,6 +4,7 @@ Here I put all the things I learnt or built about streaming servers.
 
 
 ## Problem Statement (by Mr Pankaj Sharma)
+@Staqu Technologies
 
 > Research and see if we can make our own streaming server.
 > 
