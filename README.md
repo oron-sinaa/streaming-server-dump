@@ -22,7 +22,11 @@ Here I put all the things I learnt or built about streaming servers.
 
 ## Resources
 
+> [Ant Media Server](https://www.youtube.com/watch?v=rNhkJSe8wwE)
+
 > http://live555.com/
+
+> [RTSP to HLS using ffmpeg](https://medium.com/androvideo/convert-rtsp-to-hls-using-ffmpeg-2fe2cdf3a0de)
 
 > http://live555.com/openRTSP/
 
@@ -33,8 +37,6 @@ Here I put all the things I learnt or built about streaming servers.
 > https://github.com/donkeyofking/rtspplayer
 
 > https://github.com/aler9/rtsp-simple-server
-
-> [Ant Media Server](https://www.youtube.com/watch?v=rNhkJSe8wwE)
 
 > https://www.roborealm.com/help/RTSP_Player.php
 
