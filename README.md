@@ -34,6 +34,8 @@ Here I put all the things I learnt or built about streaming servers.
 
 > https://github.com/aler9/rtsp-simple-server
 
+> [Ant Media Server](https://www.youtube.com/watch?v=rNhkJSe8wwE)
+
 > https://www.roborealm.com/help/RTSP_Player.php
 
 > https://www.wowza.com/blog/streaming-protocols
