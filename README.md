@@ -37,6 +37,8 @@ Here I put all the things I learnt or built about streaming servers.
 
 > https://www.rfc-editor.org/rfc/rfc2326.html
 
+> [Open Source Streaming Projects](https://awesomeopensource.com/projects/video-streaming)
+
 > https://github.com/donkeyofking/rtspplayer
 
 > https://github.com/aler9/rtsp-simple-server
