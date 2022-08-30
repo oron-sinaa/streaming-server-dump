@@ -23,7 +23,7 @@ Here I put all the things I learnt or built about streaming servers.
 
 ## Resources
 
-> [MistServer](https://mistserver.org/download)
+> [MistServer](https://mistserver.org/)
 
 > [RaspPI RTSP](https://www.youtube.com/watch?v=y-ipR_4oFFY)
 
