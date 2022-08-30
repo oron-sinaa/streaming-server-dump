@@ -3,6 +3,23 @@
 Here I put all the things I learnt or built about streaming servers.
 
 
+## Problem Statement (by Mr Pankaj Sharma)
+
+> Research and see if we can make our own streaming server.
+> 
+> It should be able to do following things:
+> 
+> Pull RTSP
+> 
+> GET RTSP pushed
+> 
+> Generate RTSP and HLS streams
+> 
+> Store DVR
+> 
+> Return live thumbnail
+
+
 ## Resources
 
 > http://live555.com/
