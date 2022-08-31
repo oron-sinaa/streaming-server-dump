@@ -33,7 +33,7 @@ Here I put all the things I learnt or built about streaming servers.
 
 > [Ant Media Server](https://www.youtube.com/watch?v=rNhkJSe8wwE)
 
-> [RaspPI RTSP](https://www.youtube.com/watch?v=y-ipR_4oFFY)
+> [RaspPI RTSP (video)](https://www.youtube.com/watch?v=y-ipR_4oFFY)
 
 > http://live555.com/
 
