@@ -35,6 +35,8 @@ Here I put all the things I learnt or built about streaming servers.
 
 > [RaspPI RTSP (video)](https://www.youtube.com/watch?v=y-ipR_4oFFY)
 
+> [Push vs Pull input](https://easylive.io/en/support/knowledge-base/version-V12/core-concepts/push-vs-pull/)
+
 > http://live555.com/
 
 > [RTSP to HLS using ffmpeg](https://medium.com/androvideo/convert-rtsp-to-hls-using-ffmpeg-2fe2cdf3a0de)
