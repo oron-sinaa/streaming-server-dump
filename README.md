@@ -64,6 +64,17 @@ Here I put all the things I learnt or built about streaming servers.
 > https://gstreamer.freedesktop.org/documentation/gst-rtsp-server/rtsp-server.html?gi-language=c
 
 
+## Push vs Pull protocols
+
+> In pull protocols, consumers ask periodically their producers for values. The consumers signal their producers to send values. If there is a value waiting, the producer will send it down, or else it will block and wait to fulfill the demand.
+
+whereas,
+
+> In push protocols, the consumers open a connection to the server and keep it constantly active. The producer will send (push) all-new events to the consumers using that single always-on connection. In other words, the producer PUSHes the new events to the consumers.
+
+> ![Push vs Pull])(https://user-images.githubusercontent.com/38424838/187927906-95cd0ea7-37c9-40c1-9ae9-0481df4be5d0.png)
+
+
 ## TCP vs UDP
 
 > "Because UDP doesn’t support retransmissions, packet ordering, or error-checking, there’s potential for a network glitch to corrupt the data en route"
