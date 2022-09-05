@@ -9,3 +9,5 @@
 > https://mistserver.com/
 > 
 > https://github.com/DDVTECH/mistserver/
+>
+> https://news.mistserver.org/news/76/DTSC%3A+MistServer%27s+internal+media+format
