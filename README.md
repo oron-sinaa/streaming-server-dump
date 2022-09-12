@@ -3,8 +3,14 @@
 Here I put all the things I learnt or built about streaming servers.
 
 
+Author - Aanis Noor
+
+Organisation - Staqu Technologies
+
+Website - http://staqu.com/
+
+
 ## Problem Statement (by Mr Pankaj Sharma)
-@Staqu Technologies
 
 > Research and see if we can make our own streaming server.
 > 
@@ -33,7 +39,9 @@ Here I put all the things I learnt or built about streaming servers.
 
 > [Ant Media Server](https://www.youtube.com/watch?v=rNhkJSe8wwE)
 
-> [RaspPI RTSP](https://www.youtube.com/watch?v=y-ipR_4oFFY)
+> [RaspPI RTSP (video)](https://www.youtube.com/watch?v=y-ipR_4oFFY)
+
+> [Push vs Pull input](https://easylive.io/en/support/knowledge-base/version-V12/core-concepts/push-vs-pull/)
 
 > http://live555.com/
 
@@ -42,6 +50,8 @@ Here I put all the things I learnt or built about streaming servers.
 > http://live555.com/openRTSP/
 
 > http://live555.com/mediaServer/
+
+> https://zoneminder.com/
 
 > [RTSP documentation RFC](https://www.rfc-editor.org/rfc/rfc2326.html)
 
@@ -58,6 +68,17 @@ Here I put all the things I learnt or built about streaming servers.
 > https://www.wowza.com/blog/rtsp-the-real-time-streaming-protocol-explained
 
 > https://gstreamer.freedesktop.org/documentation/gst-rtsp-server/rtsp-server.html?gi-language=c
+
+
+## Push vs Pull protocols
+
+> In *pull protocols*, consumers ask periodically their producers for values. The consumers signal their producers to send values. If there is a value waiting, the producer will send it down, or else it will block and wait to fulfill the demand.
+
+whereas,
+
+> In *push protocols*, the consumers open a connection to the server and keep it constantly active. The producer will send (push) all-new events to the consumers using that single always-on connection. In other words, the producer PUSHes the new events to the consumers.
+
+> ![Push vs Pull](https://user-images.githubusercontent.com/38424838/187927906-95cd0ea7-37c9-40c1-9ae9-0481df4be5d0.png)
 
 
 ## TCP vs UDP
