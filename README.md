@@ -69,6 +69,8 @@ Website - http://staqu.com/
 
 > https://gstreamer.freedesktop.org/documentation/gst-rtsp-server/rtsp-server.html?gi-language=c
 
+> https://www.streamingmediaglobal.com/Articles/ReadArticle.aspx?ArticleID=113350
+
 
 ## Push vs Pull protocols
 
