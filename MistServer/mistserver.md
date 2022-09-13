@@ -147,6 +147,7 @@
 
 6. *Integrations*
 
+   - Eg - http://localhost:4242/api?commands={"addstream":{"test1":{"source":"rtsp://android:stackqueue@35.207.248.73:1935/live/BerkowitsAsrao11.stream","always_on":true}}}
    - API (42)
      - Authentication
      - AddStream
@@ -166,6 +167,7 @@
 
 [Triggers](assets/Triggers.png)
 
+   - "If a trigger is _triggered_, do some action"
    - May be handled by a URL or an executable.
    - As URL:
      - POST request is sent to the URL with an extra X-Trigger header containing trigger name and payload as body.
@@ -178,7 +180,19 @@
          which in the case of bash scripts will mean that they abort as soon as you try to echo anything.)
 
 
-8. *The Meta Players*
+8. *HTTP output info handler*
+
+   - The various outputs can retrieve this information from the inputs.
+      A. JSON format stream information
+         (http://localhost:4242/json_STREAMNAME.js)
+      C. 
+
+
+9.  *The Meta Players*
+
+
+
+
 
 > https://github.com/DDVTECH/mistserver/
 >
