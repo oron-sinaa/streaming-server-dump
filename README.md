@@ -33,6 +33,10 @@ Website - http://staqu.com/
 
 > [Mistserver + Livepeer (video)](https://youtu.be/Y1CJOISDTCk)
 
+> http://www.easydarwin.org/
+
+> https://github.com/easydarwin
+
 > [NGINX Multi-streaming (video)](https://youtu.be/ZGkh2xVH4BQ)
 
 > [Open Source Streaming Projects](https://awesomeopensource.com/projects/video-streaming)
