@@ -22,7 +22,7 @@ Website - http://staqu.com/
 > 
 > 3. Generate RTSP and HLS streams
 > 
-> 4. Store DVR
+> 4. Store, Export, Play DVR
 > 
 > 5. Return live thumbnail
 
