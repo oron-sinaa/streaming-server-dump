@@ -73,6 +73,8 @@ Website - http://staqu.com/
 
 > https://gstreamer.freedesktop.org/documentation/gst-rtsp-server/rtsp-server.html?gi-language=c
 
+> https://www.kernel.org/doc/html/v4.9/media/v4l-drivers/index.html
+
 > https://www.streamingmediaglobal.com/Articles/ReadArticle.aspx?ArticleID=113350
 
 
