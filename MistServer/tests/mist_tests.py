@@ -26,9 +26,10 @@ TEST_SOURCES = \
     "rtsp://android:stackqueue@35.207.248.73:1935/live/BerkowitsAsrao11.stream",
     "/home/aanisnoor/Videos/sample.mp4",
     )
-TEST_SOURCE = TEST_SOURCES[0]
+TEST_SOURCE = TEST_SOURCES[1]
 
-STREAM_NAME = "test1"
+STREAM_NAME = "test_push"
+TARGET = "rtsp://admin:admin%40123@10.101.2.148:554/unicast/c1/s0/live"
 
 
 def choices(inp):
@@ -68,7 +69,7 @@ def get_ouput_urls():
 def pull_rtsp():
 
     call = f'{{"addstream":{{"{STREAM_NAME}":{{"source":"{TEST_SOURCE}","always_on":true}}}}}}'
-    print(f"API= {API_DOMAIN}{call}")
+    print(f"API = {API_DOMAIN}{call}")
     response = requests.get(API_DOMAIN + call)
     called_url = f"{TEST_SOURCE} (source) running at {STREAM_NAME} (stream)"
 
@@ -76,10 +77,13 @@ def pull_rtsp():
 
 
 def push_rtsp():
-    response = get_ouput_urls()
-    out_rtsp = list(filter(lambda X: X.get('hrn') == "RTSP", response))[0].get('url')
 
-    return out_rtsp
+    call = f'{{"push_start":{{"stream":"{STREAM_NAME}","target":{DVR_FOLDER}/test_push.mkv"}}}}'
+    print(f"API = {API_DOMAIN}{call}")
+    response = requests.get(API_DOMAIN + call)
+    called_url = f"{TEST_SOURCE} (source) pushed to {DVR_FOLDER}/test_push.mkv (stream)"
+
+    return called_url
 
 
 def push_hls():
@@ -90,11 +94,12 @@ def push_hls():
     
 
 def store_dvr():
+    
     dvr_location = f"{DVR_FOLDER}/{STREAM_NAME}_$datetime.mkv"
-    call = f'{{"push_start":["{STREAM_NAME}","{dvr_location}"]}}'
+    call = f'{{"push_start":{{"stream":"{STREAM_NAME}","target":{dvr_location}}}}}'
     response = requests.get(API_DOMAIN + call)
 
-    return dvr_location
+    return f"Recording at {dvr_location}"
 
 
 def generate_thumbnail():
