@@ -22,7 +22,7 @@ Website - http://staqu.com/
 > 
 > 3. Generate RTSP and HLS streams
 > 
-> 4. Store DVR
+> 4. Store, Export, Play DVR
 > 
 > 5. Return live thumbnail
 
@@ -32,6 +32,10 @@ Website - http://staqu.com/
 > [MistServer](https://mistserver.org/)
 
 > [Mistserver + Livepeer (video)](https://youtu.be/Y1CJOISDTCk)
+
+> http://www.easydarwin.org/
+
+> https://github.com/easydarwin
 
 > [NGINX Multi-streaming (video)](https://youtu.be/ZGkh2xVH4BQ)
 
@@ -68,6 +72,8 @@ Website - http://staqu.com/
 > https://www.wowza.com/blog/rtsp-the-real-time-streaming-protocol-explained
 
 > https://gstreamer.freedesktop.org/documentation/gst-rtsp-server/rtsp-server.html?gi-language=c
+
+> https://www.kernel.org/doc/html/v4.9/media/v4l-drivers/index.html
 
 > https://www.streamingmediaglobal.com/Articles/ReadArticle.aspx?ArticleID=113350
 
