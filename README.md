@@ -33,6 +33,8 @@ Website - http://staqu.com/
 
 > [Mistserver + Livepeer (video)](https://youtu.be/Y1CJOISDTCk)
 
+> [nginx_http_mp4_module](http://nginx.org/en/docs/http/ngx_http_mp4_module.html)
+
 > http://www.easydarwin.org/
 
 > https://github.com/easydarwin

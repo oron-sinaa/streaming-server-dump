@@ -22,6 +22,19 @@
 
 *[Other downloads](https://mistserver.org/download)*
 
+*[Recording URL](https://weworkjarvisndvrci.blob.core.windows.net/ndvr/1664303400_1664307000/live/BLR0410FC002.stream.mp4?se=2022-09-28T07%3A17%3A15Z&sp=r&sv=2019-07-07&ss=b&srt=o&sig=W9craYleGcWPfUUej3%2Bpdue1FKGIzibAY4z66N8CKIs%3D)*
+
+*[Recording Params](
+   curl 'https://weworkjarvisndvrci.blob.core.windows.net/ndvr/1664339400_1664343000/live/BLR0410FC002.stream.mp4?se=2022-09-28T07%3A17%3A15Z&sp=r&sv=2019-07-07&ss=b&srt=o&sig=W9craYleGcWPfUUej3%2Bpdue1FKGIzibAY4z66N8CKIs%3D' 
+   -H 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0' 
+   -H 'Accept: video/webm,video/ogg,video/*;q=0.9,application/ogg;q=0.7,audio/*;q=0.6,*/*;q=0.5' 
+   -H 'Accept-Language: en-US,en;q=0.5' 
+   -H 'Range: bytes=653459456-' 
+   -H 'Connection: keep-alive' 
+   -H 'Referer: https://wework.jarvis.live/' 
+   -H 'Sec-Fetch-Dest: video' 
+   -H 'Sec-Fetch-Mode: no-cors' 
+   -H 'Sec-Fetch-Site: cross-site')
 
 ---
 ### -> Components (7 binaries)
@@ -322,3 +335,25 @@ Both ip and passphrase optional
 > ...
 > 
 >> lib/processors/process_offline_stream.py
+
+
+---
+
+### Existing model - panel_videorecording -
+---
+---
+
++--------+------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------+
+| id     | date       | start_time      | end_time        | url                                                                                                      | 
++--------+------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------+
+| 902930 | 2022-08-04 | 20:00:00.000000 | 21:00:00.000000 | https://weworkjarvisndvrci.blob.core.windows.net/ndvr/1659623400_1659627000/live/BLR0411FC017.stream.mp4 |
+
+
+----------+---------+----------------------------+----------------------------+------------+---------------------------------------------------------------+
+has_clip | feed_id | created                    | updated                    | cloud_type | dvr_status                                                     |
+----------+---------+----------------------------+----------------------------+------------+---------------------------------------------------------------+
+       1 |      81 | 2022-08-04 18:30:10.995998 | 2022-08-04 18:30:56.615246 | azure      | [{"end": 1659631491, "start": 1659616229, "duration": 15262}]  |
+       
+
+
+"dvr_status" is fetched using "fetch_required_timeline()" which uses nimble api to return such data.
