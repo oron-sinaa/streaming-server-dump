@@ -35,6 +35,8 @@ Website - http://staqu.com/
 
 > [nginx_http_mp4_module](http://nginx.org/en/docs/http/ngx_http_mp4_module.html)
 
+> [HLS](https://developer.apple.com/documentation/http_live_streaming)
+
 > http://www.easydarwin.org/
 
 > https://github.com/easydarwin
