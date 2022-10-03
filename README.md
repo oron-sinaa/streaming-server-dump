@@ -26,6 +26,8 @@ Website - http://staqu.com/
 > 
 > 5. Return live thumbnail
 
+![Streaming_Agent](Streaming_Agent.png)
+
 
 ## Resources
 
