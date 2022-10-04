@@ -314,7 +314,6 @@ Both ip and passphrase optional
 <br>
 <br>
 
----
 
 ### Push to an empty push RTSP URL -
 ---
@@ -339,8 +338,9 @@ Both ip and passphrase optional
 
 ---
 
+<br>
+
 ### Existing model - panel_videorecording -
----
 ---
 
 ![panel_viewrecording](assets/panel_viewrecording.png)
@@ -348,3 +348,12 @@ Both ip and passphrase optional
 
 
 "dvr_status" is fetched using "fetch_required_timeline()" which uses nimble api to return such data.
+
+<br>
+
+### How nimble stores recordings -
+---
+
+![nimble_storage_structure](assets/nimble_storage.png)
+
+<br>
