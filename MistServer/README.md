@@ -335,8 +335,12 @@ Both ip and passphrase optional
 > 
 >> lib/processors/process_offline_stream.py
 
-
 ---
+
+### How to DVR
+---
+> https://news.mistserver.org/news/75/Library+playback+with+the+STREAM_SOURCE+trigger
+
 
 <br>
 
