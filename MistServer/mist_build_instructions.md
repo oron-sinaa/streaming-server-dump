@@ -25,9 +25,7 @@ MistServer build
 
 > mkdir build ; cd build
 
-> sudo apt install srt-tools
-> sudo apt --fix-broken
-> sudo apt install srt-tools
+> sudo apt install srt-tools ; sudo apt --fix-broken ; sudo apt install srt-tools
 
 <br>
 
