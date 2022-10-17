@@ -1,23 +1,12 @@
 MistServer build
 ================
 
+> git clone --branch mbedtls-dev https://github.com/gizahNL/mistserver.git
 
-#### Using branch "catalyst"-
+> sudo apt -y install libsrtp2-dev
 
-https://github.com/DDVTECH/mistserver/tree/catalyst
+> sudo apt -y install doxygen
 
+> meson ..
 
-#### Using mbedtls - 
-
-https://github.com/livepeer/mbedtls/tree/dtls_srtp_support
-
-> mkdir mbedtls_build ; cd mbedtls_build
-> 
-> cmake
->
-> make
->
-> sudo make install
-
-
-#### 
+> ninjasudo ninja install
