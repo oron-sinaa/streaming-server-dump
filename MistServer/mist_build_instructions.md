@@ -3,7 +3,7 @@ MistServer build
 
 <br>
 
-### Clone this forked branch of mistserver -
+### Clone -
 ---
 > git clone --branch mbedtls-dev https://github.com/gizahNL/mistserver.git
 
@@ -33,7 +33,7 @@ MistServer build
 
 ### Build options -
 ---
-> [ Replace meson_options.txt (from this folder) ]
+> [ Replace meson_options.txt (from this folder) with root of mistserver folder ]
 
 <br>
 
