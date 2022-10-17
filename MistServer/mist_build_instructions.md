@@ -11,7 +11,13 @@ MistServer build
 
 > mkdir build ; cd build
 
-> Replace meson_options.txt (from this folder)
+> sudo apt install srt-tools
+
+> sudo apt --fix-broken
+
+> sudo apt install srt-tools
+
+> [Replace meson_options.txt (from this folder)]
 
 > meson ..
 
