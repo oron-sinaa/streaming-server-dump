@@ -2,6 +2,7 @@ MistServer build
 ================
 
 <br>
+
 ## Clone this forked branch of mistserver -
 
 > git clone --branch mbedtls-dev https://github.com/gizahNL/mistserver.git
@@ -9,6 +10,7 @@ MistServer build
 > cd mistserver
 
 <br>
+
 ## Install dependencies and tools -
 
 > sudo apt -y install build-essential
@@ -28,11 +30,13 @@ MistServer build
 > sudo apt install srt-tools
 
 <br>
+
 ## Build options -
 
 > [ Replace meson_options.txt (from this folder) ]
 
 <br>
+
 ### Build and install-
 
 > meson ..
