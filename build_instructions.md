@@ -11,6 +11,8 @@ MistServer build
 
 > mkdir build ; cd build
 
+> Replace meson_options.txt (from this folder)
+
 > meson ..
 
 > ninja
