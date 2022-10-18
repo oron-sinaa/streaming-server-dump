@@ -54,6 +54,7 @@ BINARIES
 
 > `cd build && cmake -DDEBUG=3 -DPERPETUAL=1 -DLOAD_BALANCE=1 -DNOLLHLS=1 -DCMAKE_INSTALL_PREFIX="$CI_PATH" -DCMAKE_PREFIX_PATH="$CI_PATH/compiled" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DNORIST=yes -DNOLLHLS=1 ..`
 
+> `make -j $(nproc) && make install`
 
 <br>
 
