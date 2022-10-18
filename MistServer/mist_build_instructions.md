@@ -44,7 +44,7 @@ DEPENDENCIES
 BINARIES
 ---
 
-> `cd mistserver [ROOT/mistserver]`
+> `cd mistserver` [ROOT/mistserver]
 
 > `export CI_PATH="$(realpath ..)"`
 
@@ -60,7 +60,7 @@ BINARIES
 COMPRESS
 ---
 
-> `cd mistserver [ROOT/mistserver]`
+> `cd mistserver` [ROOT/mistserver]
 
 > `export CI_PATH="$(realpath ..)"`
 
