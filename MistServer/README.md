@@ -13,6 +13,8 @@
 > [Library playback using STREAM_SOURCE trigger](https://news.mistserver.org/news/75/Library+playback+with+the+STREAM_SOURCE+trigger)
 > 
 > [MistServer internals in detail](https://news.mistserver.org/news/79/MistServer%27s+internals+in+detail)
+> 
+> [Recording live streams](https://news.mistserver.org/news/74/Recording+live+streams+with+MistServer)
 
 > Mist server is one of the leading OTT (Internet Streaming) tool-kits with an open source core.
 > 
