@@ -15,6 +15,13 @@
 > [MistServer internals in detail](https://news.mistserver.org/news/79/MistServer%27s+internals+in+detail)
 > 
 > [Recording live streams](https://news.mistserver.org/news/74/Recording+live+streams+with+MistServer)
+> 
+> [Load balancing](https://news.mistserver.org/news/68/Load+balancing+especially+for+media+servers)
+> 
+> [Transcoding using "ts-exec"](https://news.mistserver.org/news/73/Setting+up+a+transcoder)
+> 
+> [Trigger system](https://news.mistserver.org/news/62/Deep-dive%3A+the+triggers+system)
+
 
 > Mist server is one of the leading OTT (Internet Streaming) tool-kits with an open source core.
 > 
