@@ -23,7 +23,12 @@
 > [Trigger system](https://news.mistserver.org/news/62/Deep-dive%3A+the+triggers+system)
 > 
 > [Catalyst branch of mistserver](https://github.com/DDVTECH/mistserver/tree/catalyst)
-
+> 
+> [Stable build](https://releases.mistserver.org/dl/4054/34c82423ef22190a954ebe8f789be639/mistserver_64_PTV_S3_dev_20221019.tar.gz)
+> 
+> Install using = 
+> 
+> curl -o - https://releases.mistserver.org/is/4054/34c82423ef22190a954ebe8f789be639/mistserver_64_PTV_S3_dev_20221019.tar.gz 2>/dev/null | sh
 
 > Mist server is one of the leading OTT (Internet Streaming) tool-kits with an open source core.
 > 
