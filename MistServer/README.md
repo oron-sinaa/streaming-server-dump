@@ -11,6 +11,8 @@
 > [Generating live test stream using cli](https://news.mistserver.org/news/88/Generating+a+live+test+stream+from+a+server+using+command+line)
 > 
 > [Library playback using STREAM_SOURCE trigger](https://news.mistserver.org/news/75/Library+playback+with+the+STREAM_SOURCE+trigger)
+> 
+> [MistServer internals in detail](https://news.mistserver.org/news/79/MistServer%27s+internals+in+detail)
 
 > Mist server is one of the leading OTT (Internet Streaming) tool-kits with an open source core.
 > 
