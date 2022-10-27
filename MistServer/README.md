@@ -5,7 +5,9 @@
 ### Links
 
 > [MistServer Calculator](https://news.mistserver.org/news/85/What+hardware+do+I+need+to+run+MistServer%3F)
-
+> [MistServer with Prometheus and Graphana](https://news.mistserver.org/news/83/Setting+up+Analytics+through+Prometheus+and+Grafana)
+> [Generating live test stream using cli](https://news.mistserver.org/news/88/Generating+a+live+test+stream+from+a+server+using+command+line)
+> [Library playback using STREAM_SOURCE trigger](https://news.mistserver.org/news/75/Library+playback+with+the+STREAM_SOURCE+trigger)
 
 > Mist server is one of the leading OTT (Internet Streaming) tool-kits with an open source core.
 > 
