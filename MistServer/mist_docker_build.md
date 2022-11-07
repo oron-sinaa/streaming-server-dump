@@ -10,7 +10,7 @@
 
 > docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_PASSWORD
 
-`docker buildx build --progress=plain --target=mist --build-arg BUILD_TARGET=static --build-arg STRIP_BINARIES=true --build-arg BUILD_VERSION=e064f8951738fc89605844891605e1150dd636b6 --tag livepeerci/mistserver:static-catalyst-amd64 --tag livepeerci/mistserver:static-e064f8951738fc89605844891605e1150dd636b6-amd64 --tag livepeerci/mistserver:static-e064f895-amd64 --tag livepeerci/mistserver:static-e064f8951738fc89605844891605e1150dd636b6-amd64 --tag livepeerci/mistserver:static-latest-amd64 --push .`
+> `docker buildx build --progress=plain --target=mist --build-arg BUILD_TARGET=static --build-arg STRIP_BINARIES=true --build-arg BUILD_VERSION=e064f8951738fc89605844891605e1150dd636b6 --tag livepeerci/mistserver:static-catalyst-amd64 --tag livepeerci/mistserver:static-e064f8951738fc89605844891605e1150dd636b6-amd64 --tag livepeerci/mistserver:static-e064f895-amd64 --tag livepeerci/mistserver:static-e064f8951738fc89605844891605e1150dd636b6-amd64 --tag livepeerci/mistserver:static-latest-amd64 --push .`
 
 
 
