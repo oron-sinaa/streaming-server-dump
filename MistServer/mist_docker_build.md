@@ -6,6 +6,13 @@
 ### (Make any required edits in the source files)
 
 
+## Building for raspberry pi =
+
+> Edit dockerfile (under catalyst)
+> 
+> FROM balenalib/raspberry-pi
+
+
 ## Building with docker =
 
 > docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_PASSWORD
